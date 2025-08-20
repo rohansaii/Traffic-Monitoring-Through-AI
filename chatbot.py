@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-API_KEY = "YAIzaSyCx0X7R4i17u3cB-9oC9izZo8XaSlwbsLk"
+API_KEY = "GOOGLE_APIKEY_YOURS"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
 chat_session = model.start_chat()
@@ -15,3 +15,4 @@ def get_gemini_response(message: str) -> str:
         return response.text
     except Exception as e:
         return f"Error communicating with Gemini: {e}"
+
