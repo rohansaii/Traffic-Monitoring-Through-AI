@@ -1,0 +1,9 @@
+time_of_day,day_of_week,vehicle_count,density
+Morning,Weekday,80,High
+Morning,Weekend,50,Medium
+Afternoon,Weekday,40,Medium
+Afternoon,Weekend,25,Low
+Evening,Weekday,90,High
+Evening,Weekend,60,Medium
+Night,Weekday,20,Low
+Night,Weekend,15,Low
