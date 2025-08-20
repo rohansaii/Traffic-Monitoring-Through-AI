@@ -16,3 +16,4 @@ def get_gemini_response(message: str) -> str:
     except Exception as e:
         return f"Error communicating with Gemini: {e}"
 
+
